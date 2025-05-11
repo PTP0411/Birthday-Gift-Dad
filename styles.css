@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background: linear-gradient(#2C2C2C, #8B5E3C);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #8B5E3C;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #8B5E3C;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #8B5E3C;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-1:focus {
+    background-image: url("images/1.JPG");
+}
+
+#gift-img-2:focus {
+    background-image: url("images/2.JPG");
+}
+
+#gift-img-3:focus {
+    background-image: url("images/3.JPG");
+}
+
+#gift-img-4:focus {
+    background-image: url("images/4.JPG");
+}
+
+#gift-img-5:focus {
+    background-image: url("images/5.jpg");
+}
+
+#gift-img-6:focus {
+    background-image: url("images/6.JPG");
+}
+
+#gift-img-7:focus {
+    background-image: url("images/7.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
